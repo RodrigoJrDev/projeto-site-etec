@@ -1,0 +1,187 @@
+/* ======================================================= 
+* Site Desenvolvindo por Rodrigo Junior 
+
+* Instagram: @diguinho_jn
+* GitHub: RodrigoJrDev
+
+Sábado, 5 de Junho de 2021 - Guarulhos, São Paulo
+======================================================= */
+
+/* Configurações inicias */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+}
+header {
+  transition: all 0.5s;
+}
+/* Menu */
+a.logo img {
+  width: 220px;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  position: relative;
+  list-style: none;
+}
+.navbar li a {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  padding: 0px 25px 0px 25px;
+
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px #6a5e7238;
+}
+.redes-socias-header i {
+  font-size: 1.2rem;
+  padding: 10px 5px 10px 5px;
+}
+.redes-socias-header a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s all;
+}
+.redes-socias-header a:hover {
+  color: #9d16f7;
+}
+
+/* MENU - Scroll*/
+header.sticky {
+  z-index: 1000;
+}
+header.sticky {
+  background: #fff;
+  box-shadow: 0px 5px 20px rgb(0 0 0 / 10%);
+  padding: 10px 5px;
+}
+
+/* Página Home */
+
+/* Banner */
+.banner-full {
+  background: #f1f1f1;
+  padding: 60px 0px;
+  font-family: "Poppins", sans-serif;
+  padding-top: 100px;
+}
+.banner-full svg {
+  width: 85%;
+}
+.banner-full .img-svg {
+  text-align: right;
+}
+.banner-full h2 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #575a89;
+  margin: 30px 0px;
+}
+.banner-full h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.banner-full h3 span {
+  font-size: 25px;
+  color: #575a89;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.banner-full p {
+  text-align: justify;
+  letter-spacing: 0.1px;
+}
+.button-banner {
+  margin-top: 30px;
+}
+.button-banner a {
+  background: #6a5e72;
+  color: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 30px rgb(74 50 202 / 20%);
+  transition: 0.3s all;
+}
+.button-banner a:hover {
+  background: #575a89;
+}
+
+/* Serviços */
+.servicos {
+  padding: 80px 0px;
+  background: #fff;
+  text-align: center;
+}
+.servicos .box-servicos {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgb(63 61 86 / 25%);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  border-radius: 2px;
+  border-bottom: 3px solid #6f5e73;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.box-servicos img {
+  max-width: 100%;
+  padding: 35px 70px;
+  height: auto;
+}
+.servicos p:first-child {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #6a5e72;
+  margin-bottom: 5px;
+}
+.servicos h2 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #2f2e41;
+  font-family: "Poppins";
+  margin-bottom: 60px;
+}
+.box-servicos h3 {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #3e3b56;
+  font-family: "Poppins";
+  margin-bottom: 10px;
+}
+.box-servicos p {
+  color: #333;
+  font-weight: 500;
+}
+
+/* Footer */
+footer {
+  background: #f6f9ff;
+  padding: 30px 0px;
+  font-family: "Poppins";
+}
+footer p {
+  font-size: 14px;
+  text-align: justify;
+  color: #333;
+}
