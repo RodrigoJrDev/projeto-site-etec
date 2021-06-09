@@ -177,11 +177,31 @@ header.sticky {
 /* Footer */
 footer {
   background: #f6f9ff;
-  padding: 30px 0px;
+  padding: 10px 0px;
   font-family: "Poppins";
 }
 footer p {
   font-size: 14px;
   text-align: justify;
   color: #333;
+}
+footer h4 {
+  color: #6a5e72;
+  font-weight: 700;
+}
+.redes-socias-footer i {
+  font-size: 1.4rem;
+  padding: 10px 5px 10px 5px;
+  color: #6b6073;
+}
+.redes-socias-footer a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s all;
+}
+.redes-socias-footer a:hover {
+  color: #9d16f7;
+}
+.b-line {
+  align-items: baseline;
 }
